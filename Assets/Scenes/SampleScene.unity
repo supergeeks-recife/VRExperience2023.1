@@ -1019,10 +1019,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 233cfe3ed8ea89f49877ca1f3ba6d845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects: []
-  min: 0
-  max: 0
-  distanceFromSpawn: 10
+  objects:
+  - {fileID: 2636820298107493410, guid: a2bd798ea40c7e341aa61ad124d95342, type: 3}
+  - {fileID: 9154215057541871321, guid: 2554008d6447a2540b44e55f0c0b576e, type: 3}
+  - {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e, type: 3}
+  - {fileID: 3318689441606926373, guid: d3ee913ed32937344b0587e70dc777a2, type: 3}
+  - {fileID: 4500668923149335752, guid: a524090786e7ba545bd5ce3d24c9a3fb, type: 3}
+  min: 50
+  max: 100
+  distanceFromSpawn: 25
   spawnInterval: 0
 --- !u!4 &1501614490
 Transform:
