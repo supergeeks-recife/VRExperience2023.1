@@ -6,7 +6,8 @@ using UnityEngine.Events;
 
 public class Interact : MonoBehaviour
 {
-    public Button startButton;
+    public Button Button = null;
+    public Toggle toggleButton = null;
     public Image circleProgress;
     public float totalTime = 3;
     private bool gvrStatus;
