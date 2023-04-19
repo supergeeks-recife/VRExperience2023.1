@@ -25,12 +25,14 @@ public class Interact : MonoBehaviour
             if(gvrTimer > totalTime)
             {
                 gvrClick.Invoke();
+                PlayerPrefs.SetInt("predio", 1);
             }
         }
         else
         {
             gvrTimer = 0;
             circleProgress.fillAmount = 0;
+            PlayerPrefs.SetInt("predio", 0);
         }
     }
 
