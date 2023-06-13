@@ -28,6 +28,7 @@ public class PlayerAction : MonoBehaviour
             if (gvrTimer > totalTime)
             {
                 gvrClick.Invoke();
+                gvrTimer = 0;
             }
         }
         else
