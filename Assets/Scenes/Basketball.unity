@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3825856, g: 0.39405233, b: 0.37855038, a: 1}
+  m_IndirectSpecularColor: {r: 0.38258567, g: 0.39405236, b: 0.37855044, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1108,7 +1108,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1552887622}
   - component: {fileID: 1552887623}
-  - component: {fileID: 1552887624}
   m_Layer: 0
   m_Name: TriggerPoints
   m_TagString: Untagged
@@ -1143,19 +1142,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1552887624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552887621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcef9762fde5e594284e3406ba9cf667, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  juiz: {fileID: 229718481}
 --- !u!1 &1762045606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,18 +1341,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1974958420 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8181146247818734212, guid: 1b5b614d793b7b64f8ca279d95c3e1c7,
-    type: 3}
-  m_PrefabInstance: {fileID: 2043129164}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a82259d83d11324c9fe2754eacfad98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2043129164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1374,22 +1348,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8181146247818734212, guid: 1b5b614d793b7b64f8ca279d95c3e1c7,
-        type: 3}
-      propertyPath: speed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181146247818734212, guid: 1b5b614d793b7b64f8ca279d95c3e1c7,
-        type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 2788795728975906560, guid: eb7dfa229a60e204eb561c25edc77463,
-        type: 3}
-    - target: {fileID: 8181146247818734214, guid: 1b5b614d793b7b64f8ca279d95c3e1c7,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 126
-      objectReference: {fileID: 0}
     - target: {fileID: 8181146247818734215, guid: 1b5b614d793b7b64f8ca279d95c3e1c7,
         type: 3}
       propertyPath: m_RootOrder
@@ -4424,7 +4382,7 @@ MonoBehaviour:
   gvrClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1974958420}
+      - m_Target: {fileID: 0}
         m_MethodName: Atirar
         m_Mode: 1
         m_Arguments:

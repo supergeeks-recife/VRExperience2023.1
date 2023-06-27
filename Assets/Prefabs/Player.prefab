@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8181146247818734215}
   - component: {fileID: 8181146247818734213}
   - component: {fileID: 8181146247818734214}
-  - component: {fileID: 8181146247818734212}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -62,22 +61,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8181146247818734212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8181146247818734216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a82259d83d11324c9fe2754eacfad98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 4024910558825533305, guid: 696831f79f7dc9941be39c4d6ec80962, type: 3}
-  speed: 10
 --- !u!1 &8181146248505268211
 GameObject:
   m_ObjectHideFlags: 0

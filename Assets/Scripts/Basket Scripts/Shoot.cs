@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     public GameObject bullet;
-    public float speed = 10f;
+    public float force = 10f;
 
     void Start()
     {
@@ -31,7 +31,7 @@ public class Shoot : MonoBehaviour
         Camera cam = Camera.main;
         Vector3 direction = cam.transform.forward + transform.up * 0.5f;
 
-        bullet_rig.AddForce(direction * speed, ForceMode.Impulse);
+        bullet_rig.AddForce(direction * force, ForceMode.Impulse);
         //bullet_rig.velocity = cam.transform.rotation * Vector3.forward * speed;
     }
 }
